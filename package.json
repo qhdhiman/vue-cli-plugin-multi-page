@@ -1,0 +1,10 @@
+{
+  "name": "vue-cli-multi-page",
+  "version": "0.0.1",
+  "description": "vue-cli mulit page & mulit module",
+  "author": "qhdhiman",
+  "main": "index.js",
+  "dependencies": {
+    "webpack-merge": "^4.1.4"
+  }
+}
