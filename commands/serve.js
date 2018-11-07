@@ -12,7 +12,7 @@ const defaults = {
 }
 
 module.exports = (api, options) => {
-  api.registerCommand('dev', {
+  api.registerCommand('serve', {
     description: 'start development server',
     usage: 'vue-cli-service serve [options] [entry]',
     options: {
