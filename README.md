@@ -50,7 +50,7 @@ src  // 源码目录
 在插件安装后会自动修改项目目录结构为该插件要求的运行环境（参见要求的项目结构）<br>
 注意：目前还不支持自动修改项目目录结构 ❌
 ```
-vue add vue-cli-plugin-multi-page // npm地址:https://www.npmjs.com/package/vue-cli-plugin-multi-page
+vue add vue-cli-plugin-multi-page 
 ```
 ***或者你可以可以这样做***<br>
 1.列表内容先clone本项目到本地<br>

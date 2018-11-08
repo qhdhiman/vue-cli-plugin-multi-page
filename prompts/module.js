@@ -16,4 +16,5 @@ module.exports = cli => {
       options.module = answers.features.includes('module')
     }
   })
+
 }
