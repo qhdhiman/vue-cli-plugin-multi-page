@@ -1,10 +1,10 @@
 # VUE-CLI-MUILT-PAGE VUE多页开发构建插件
-该插件为vue-cli3的cli-plugin。插件依托于vue-cli3运行环境，在使用vue-cli3的vue create project创建好项目后在项目根目录下执行 vue add vue-cli-multi-page 来安装此插件，安装完毕后会自动修改项目目录为多页开发环境。<br>
-新建开发模块使用 npm run add module<br>
-本地启动开发模块 npm run serve module<br>
-本地构建一个模块 npm run build module<br>
-本地构建多个模块 npm run build m1 m2 m3...<br>
-本地构建所有模块 npm run build<br>
+该插件为*vue-cli3*的*cli-plugin*。插件依托于*vue-cli3*运行环境，在使用*vue-cli3*的*vue create project*创建好项目后在项目根目录下执行 *vue add vue-cli-multi-page* 来安装此插件，安装完毕后会自动修改项目目录为多页开发环境。<br>
+新建开发模块使用 *npm run add module*<br>
+本地启动开发模块 *npm run serve module*<br>
+本地构建一个模块 *npm run build module*<br>
+本地构建多个模块 *npm run build m1 m2 m3...*<br>
+本地构建所有模块 *npm run build*<br>
 
 ## 要求的项目结构
 ```
