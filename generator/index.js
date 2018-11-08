@@ -13,7 +13,7 @@ module.exports = (api, options, rootOptions) => {
   //   doesCompile: api.hasPlugin('babel') || api.hasPlugin('typescript')
   // })
 
-  if (options.foo) {
-    // 有条件地生成文件
-  }
+  // if (options.foo) {
+  //   // 有条件地生成文件
+  // }
 }
