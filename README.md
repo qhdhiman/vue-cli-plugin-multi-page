@@ -56,7 +56,7 @@ vue add vue-cli-plugin-multi-page
 1.列表内容先clone本项目到本地<br>
 2.按该插件要求修改项目目录结构<br>
 3.在项目package.json文件中引入本插件<br>
-4.*在本地开发模式中使用npm run add modulue 命令可能会出现抄不到vue-cli-plugin-multi-page路径的问题，先使用vue add vue-cli-plugin-multi-page 解决*
+4.*在本地开发模式中使用npm run add modulue 命令可能会出现找不到vue-cli-plugin-multi-page路径的问题，先使用vue add vue-cli-plugin-multi-page 解决*
 </span>
 ``` json
   # pageckage.json
