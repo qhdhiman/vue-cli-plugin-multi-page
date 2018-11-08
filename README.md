@@ -46,12 +46,13 @@ src  // 源码目录
 ```
 ## 以下是该插件的愿景（最终完成目标）
 
-## 1.在vue-cli3项目中使用该插件 ❌
-在插件安装后会自动修改项目目录结构为该插件要求的运行环境（参见要求的项目结构）
+## 1.在vue-cli3项目中使用该插件 ✅
+在插件安装后会自动修改项目目录结构为该插件要求的运行环境（参见要求的项目结构）<br>
+注意：目前还不支持自动修改项目目录结构 ❌
 ```
-vue add @vue/vue-cli-multi-page
+vue add vue-cli-plugin-multi-page // npm地址:https://www.npmjs.com/package/vue-cli-plugin-multi-page
 ```
-<span style="color:red">注意：由于这一步还不支持，所以着急使用的用户可以这样做：<br>
+***或者你可以可以这样做***<br>
 1.列表内容先clone本项目到本地<br>
 2.按该插件要求修改项目目录结构<br>
 3.在项目package.json文件中引入本插件<br>
