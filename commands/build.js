@@ -96,7 +96,7 @@ async function build (args, api, options) {
   const path = require('path')
   const chalk = require('chalk')
   const webpack = require('webpack')
-  const formatStats = require('./formatStats')
+  const formatStats = require('../util/formatStats')
   const validateWebpackConfig = require('../util/validateWebpackConfig')
   const {
     log,
@@ -138,7 +138,7 @@ async function build (args, api, options) {
   ) {
     webpackConfig = require('./resolveWcConfig')(api, args, options)
   } else {
-    webpackConfig = require('./resolveAppConfig')(api, args, options)
+    webpackConfig = require('../util/resolveAppConfig')(api, args, options)
   }
 
   // check for common config errors
