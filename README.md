@@ -64,7 +64,7 @@ vue add vue-cli-plugin-multi-page
   { ...
 
     ,"vuePlugins": {
-      "service": ["../vue-cli/vue-cli-multi-page"]
+      "service": ["../vue-cli-plugin-multi-page"]
     }
   }
 ```
