@@ -1,8 +1,8 @@
-const module = require('./module')
+const clearEnv = require('./clear-env')
 
 module.exports = cli => {
 
-  module(cli)
+  clearEnv(cli)
 
   
   // cli.injectFeature({
