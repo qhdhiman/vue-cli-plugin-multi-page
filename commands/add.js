@@ -7,7 +7,7 @@ const resolve = require('resolve')
 const chalk = require('chalk')
 const copy = require('copy')
 const baseDir = resolve.sync('vue-cli-plugin-multi-page', { basedir: process.cwd() })
-const source = path.resolve(path.dirname(baseDir), 'generator/template/ejs/**')
+const source = path.resolve(path.dirname(baseDir), 'generator/template/m/**')
 const dist = 'src/modules/'
 
 module.exports = (api, options) => {
@@ -26,6 +26,8 @@ module.exports = (api, options) => {
         // `files` is an array of the files that were copied
         console.log(chalk.yellow(`模块${entry}创建成功！`))
       });
+    } else {
+        console.log(chalk.red(`npm run add [module] 缺失参数: module`))
     }
   })
 }
