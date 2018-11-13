@@ -20,10 +20,8 @@ module.exports = (api, options) => {
     // entry arg
     const entry = args._[0]
     // api.resolve(dist + entry)
-    console.log(source)
     if (entry) {
       copy(source, api.resolve(dist + entry), function(err, files) {
-        console.log(files)
         if (err) throw err;
         // `files` is an array of the files that were copied
         console.log(chalk.yellow(`模块${entry}创建成功！`))
