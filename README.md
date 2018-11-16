@@ -75,7 +75,7 @@ npm run add [module]
 ```
 ## 3.本地启动模块 ✅
 ```npm
-npm run serv [module] 
+npm run serve [module] 
 ```
 ## 4.构建一个或者多个模块 ✅
 ```npm
