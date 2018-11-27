@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-multi-page",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "依托于vue-cli3的cli-plugin多模块开发、构建插件",
   "author": {
     "name": "qhdhiman",
@@ -28,9 +28,9 @@
     "multi build",
     "multi modules"
   ],
-  "homepage": "https://github.com/qhdhiman/vue-cli-multi-page",
+  "homepage": "https://github.com/qhdhiman/vue-cli-plugin-multi-page",
   "bugs": {
-    "url": "https://github.com/qhdhiman/vue-cli-multi-page/issues",
+    "url": "https://github.com/qhdhiman/vue-cli-plugin-multi-page/issues",
     "email": "qhdhiman@qq.com"
   },
   "licenses": [
@@ -40,6 +40,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/qhdhiman/vue-cli-multi-page.git"
+    "url": "https://github.com/qhdhiman/vue-cli-plugin-multi-page.git"
   }
 }
