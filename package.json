@@ -1,7 +1,7 @@
 {
   "name": "vue-cli-plugin-multi-page",
-  "version": "0.1.4",
-  "description": "vue-cli-plugin-mulit-page. The multi-page development and construction of multi-person writing platform for vue-cli3, please refer to readme.md for details",
+  "version": "0.1.5",
+  "description": "依托于vue-cli3的cli-plugin多模块开发、构建插件",
   "author": {
     "name": "qhdhiman",
     "email": "qhdhiman@qq.com",
