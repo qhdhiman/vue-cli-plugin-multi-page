@@ -1,4 +1,4 @@
-# VUE-CLI-MUILT-PAGE VUE多页开发构建插件
+# VUE-CLI-MUILT-PAGE VUE多页开发构建插件 [![Downloads](https://img.shields.io/npm/dt/vue-cli-plugin-multi-page.svg)](https://www.npmjs.com/package/vue-cli-plugin-multi-page) [![Version](https://img.shields.io/npm/v/vue-cli-plugin-multi-page.svg)](https://www.npmjs.com/package/vue-cli-plugin-multi-page)
 该插件为*vue-cli3*的*cli-plugin*插件，依赖*vue-cli3*运行环境(*系统需要安装**vue-cli 3.x**版本*)。<br>
 ## 前期准备
 1. 创建项目: *vue create [project]* <br>
