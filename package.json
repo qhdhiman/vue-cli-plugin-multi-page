@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-multi-page",
-  "version": "0.2.0",
+  "version": "0.8.0",
   "description": "依托于vue-cli3的cli-plugin多模块开发、构建插件",
   "author": {
     "name": "qhdhiman",
