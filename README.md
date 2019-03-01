@@ -3,7 +3,7 @@
 ## 前期准备
 1. 创建项目: *vue create [project]* <br>
 2. 进入项目根目录: *cd [project]* <br>
-3. 安装此插件:  *vue add vue-cli-plugin-multi-page* <br>
+3. 安装此插件:  *vue add multi-page（或者 vue add vue-cli-plugin-multi-page）* <br>
 ## 常用命令
 **新建开发模块使用** *npm run add module*<br>
 **本地启动开发模块** *npm run serve module*<br>
