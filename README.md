@@ -82,11 +82,15 @@ npm run add [module]
 ```npm
 npm run serve [module] 
 ```
-## 4.构建一个或者多个模块 ✅
+## 4.本地启动所有模块 ❌
+```npm
+npm run serve
+```
+## 5.构建一个或者多个模块 ✅
 ```npm
 npm run build [module] [m2] [...]
 ```
-## 5.构建所有模块 ✅
+## 6.构建所有模块 ✅
 ```npm
 npm run build
 ```
