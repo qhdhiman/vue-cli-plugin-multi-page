@@ -16,4 +16,19 @@ module.exports = (api, options, rootOptions) => {
   // if (options.foo) {
   //   // 有条件地生成文件
   // }
+
+  // 根据eslint配置自动校正
+  api.onCreateComplete(() => {
+    // Linting the generated files
+    if (api.hasPlugin('eslint')) {
+      // Lint generated/modified files
+      try {
+        const lint = require('@vue/cli-plugin-eslint/lint')
+        lint({ silent: true }, api)
+      } catch (e) {
+        // No ESLint vue-cli plugin
+      }
+    }
+  })  
+  
 }
